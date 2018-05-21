@@ -4,7 +4,7 @@ def position_taken(board,index)
   #is trying to fill if the index is already occupied it will not allow this
   position_value=board[index].downcase
 
-  if position_value.include? "x" || position_value.include? "o"
+  if position_value.include? "x" or position_value.include? "o"
     return true
   else
     return false
