@@ -4,7 +4,7 @@ def position_taken?(board,index)
   #is trying to fill if the index is already occupied it will not allow this
   position_value=board[index]
   if position_value != nil
-    if position_value.include? "x" or position_value.include? "o" or position_value.include? "X" or position_value.include? "Oleanr"
+    if position_value.include? "x" or position_value.include? "o" or position_value.include? "X" or position_value.include? "O"
       return true
     else
       return false
